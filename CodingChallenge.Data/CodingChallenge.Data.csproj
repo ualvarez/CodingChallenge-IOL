@@ -50,15 +50,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\Circulo.cs" />
-    <Compile Include="Classes\Cuadrado.cs" />
-    <Compile Include="Classes\Enums.cs" />
-    <Compile Include="Classes\FormaGeometrica.cs" />
-    <Compile Include="Classes\FormaGeometricaBase.cs" />
-    <Compile Include="Classes\FormaGeometricaGenerica.cs" />
+    <Compile Include="Entidades\Circulo.cs" />
+    <Compile Include="Entidades\Cuadrado.cs" />
+    <Compile Include="Helpers\Enums.cs" />
+    <Compile Include="Entidades\FormaGeometricaBase.cs" />
     <Compile Include="Classes\Impresion.cs" />
-    <Compile Include="Classes\TrapecioRectangulo.cs" />
-    <Compile Include="Classes\TrianguloEquilatero.cs" />
+    <Compile Include="Entidades\TrapecioRectangulo.cs" />
+    <Compile Include="Entidades\TrianguloEquilatero.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

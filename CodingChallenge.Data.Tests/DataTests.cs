@@ -44,6 +44,19 @@ namespace CodingChallenge.Data.Tests
         }
 
         [TestCase]
+        public void TestResumenListaConUnTrapecioRectangulo()
+        {
+            var cuadrado = new List<FormaGeometricaBase>
+            {
+                new TrapecioRectangulo(7,5,29)
+            };
+
+            Impresion impresion = new Impresion(cuadrado, Idioma.Español);
+
+            Assert.AreEqual("<h1>Reporte de Formas</h1>1 TrapecioRectangulo | Area 119 | Perímetro 66 <br/>TOTAL:<br/>1 formas Perímetro 66 Area 119", impresion.Imprimir());
+        }
+
+        [TestCase]
         public void TestResumenListaConMasCuadrados()
         {
             var cuadrados = new List<FormaGeometricaBase>
@@ -69,13 +82,14 @@ namespace CodingChallenge.Data.Tests
                 new Cuadrado(2),
                 new TrianguloEquilatero(9),
                 new Circulo(2.75m),
-                new TrianguloEquilatero(4.2m)
+                new TrianguloEquilatero(4.2m),
+                new TrapecioRectangulo(7,5,29.2m)
             };
 
             Impresion impresion = new Impresion(formas, Idioma.Ingles);
 
             Assert.AreEqual(
-                "<h1>Shapes report</h1>2 Squares | Area 29 | Perimeter 28 <br/>2 Circles | Area 13,01 | Perimeter 18,06 <br/>3 Triangles | Area 49,64 | Perimeter 51,6 <br/>TOTAL:<br/>7 shapes Perimeter 97,66 Area 91,65",
+                "<h1>Shapes report</h1>2 Squares | Area 29 | Perimeter 28 <br/>2 Circles | Area 13,01 | Perimeter 18,06 <br/>3 Triangles | Area 49,64 | Perimeter 51,6 <br/>1 TrapezoidRectangle | Area 119,7 | Perimeter 66,39 <br/>TOTAL:<br/>8 shapes Perimeter 164,06 Area 211,35",
                 impresion.Imprimir());
         }
 
