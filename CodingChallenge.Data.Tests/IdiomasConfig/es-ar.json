@@ -1,0 +1,17 @@
+{
+  "figuraGeometrica": {
+    "circulo": "Círculo",
+    "cuadrado": "Cuadrado",
+    "triangulo": "Triángulo",
+    "trapecioRectangulo": "Trapecio Rectángulo",
+    "perimetro": "Perímetro",
+    "area": "Area",
+    "formas":  "Formas"
+  },
+  "header": {
+    "tituloListaVacia": "Lista vacía de formas!",
+    "tituloListaConDatos": "Reporte de Formas"
+  }
+  
+
+}

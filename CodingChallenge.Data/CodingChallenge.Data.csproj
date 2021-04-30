@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Texto.cs" />
     <Compile Include="Entidades\Circulo.cs" />
     <Compile Include="Entidades\Cuadrado.cs" />
     <Compile Include="Helpers\Enums.cs" />

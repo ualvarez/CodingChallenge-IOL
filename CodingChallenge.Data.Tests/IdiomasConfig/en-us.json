@@ -1,0 +1,15 @@
+{
+  "figuraGeometrica": {
+    "circulo": "Circle",
+    "cuadrado": "Square",
+    "triangulo": "Triangle",
+    "trapecioRectangulo": "TrapezoidRectangle",
+    "perimetro": "Perimeter",
+    "area": "Area",
+    "formas": "Shapes"
+  },
+  "header": {
+    "tituloListaVacia": "Empty list of shapes!",
+    "tituloListaConDatos": "Shapes report"
+  }
+}
